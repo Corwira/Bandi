@@ -1,0 +1,361 @@
+/* ========  general styles  ======== */
+@media screen and (max-width: 481px) {
+    .section-subheading {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+/*  ======== header ========  */
+@media only screen and (max-width : 700px) {
+    .header-content p {
+            margin-bottom: 50px;
+        }
+}
+
+/*  ======== features section ======== */
+@media screen and (min-width: 1024px) and (max-width: 1220px) {
+    #features {
+        height: 400px;
+    }
+    .feature-item {
+       max-width: 300px;
+      min-width: 300px;
+    }
+    .feature-item img {
+      margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #features {
+        height: 400px;
+    }
+    .feature-item {
+        float: left;
+        max-width: 240px;
+        min-width: 210px;
+        padding-right: 20px;
+    }
+    .feature-item img {
+       display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #features {
+        height: 740px;
+    }
+    .feature-item {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #features {
+        height: 790px;
+    }
+    .feature-item {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .feature-item img {
+        display: none;
+    }
+    .header-content h1 {
+        font-size: 2.5em; 
+        padding: 0 20px;
+    }
+    .header-content h2 {
+        font-size: 2em;
+        padding: 0 20px;
+    }
+    .header-content p {
+        font-size: 1em;
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 480px) {
+     #features {
+        height: 740px;
+    }
+}
+
+
+/*  ======== works ========  */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+     #works {
+        height: 1450px; 
+    }
+    #works .section-subheading  {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    #works {
+        height: 2800px; 
+    }
+    #works .section-subheading, .portfolio-nav {
+       width: 80%;
+       margin-right: auto;
+       margin-left: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #works {
+        height: 2750px;
+    }
+    .portfolio-box {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px)  {
+    #works {
+        height: 2300px;
+    }
+}
+
+@media screen and (min-width: 990px) and (max-width: 1080px) {
+    #works {
+        height: 850px; 
+    }
+}
+
+
+/* ========  team ========  */
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+     #team {
+        height: 1200px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+     #team {
+        height: 1100px; 
+    }
+    #team .section-subheading  {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+       .team-member p  {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    #team {
+        height: 2000px;
+    }
+    .section-subheading {
+       width: 80%;
+       margin-right: auto;
+       margin-left: auto;
+    }
+     .team-member p  {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #team {
+        height: 2000px;
+    }
+     .team-member p  {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+/* ======== facts ========*/
+@media screen and (min-width: 320px) and (max-width: 1040px) {
+   #facts {
+        display: none;
+    }
+}
+
+
+/*  ======== form  ======== */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #contact {
+        height: 900px;
+    }
+    .contact-form input[type='text'], input[type='email'] {
+        max-width: 300px;
+        min-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-form input[name='message'] {
+        max-width: 600px;
+        min-width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #contact .section-subheading  {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+} 
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #contact {
+        height: 800px;
+        background: #f4f7f9; 
+    }
+    .contact-address {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-address p {
+        width: 100%;
+    }
+    .contact-form h3 {
+        margin-top: 30px;
+    }
+     .contact-form input[type='text'], input[type='email'] {
+        max-width: 35%;
+        min-width: 25%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-form input[name='message'] {
+        max-width: 80%;
+        min-width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-icons {
+        margin-right: 10px;
+    }
+     .contact-form input[type="submit"] {
+       float: left;
+    } 
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #contact {
+        height: 950px;
+        background: #f4f7f9; 
+    }
+    .contact-address {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-address p {
+        width: 100%;
+    }
+    .contact-form h3 {
+        margin-top: 30px;
+    }
+    .contact-form input[type='text'], input[type='email'], input[name='message'] {
+        max-width: 280px;
+        min-width: 280px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact-icons {
+        display: none;
+    }
+    .contact-form input[type="submit"] {
+        float: left;
+    }   
+}
+
+@media screen and (min-width: 425px) and (max-width: 479px) {
+    .contact-form input[type='text'], input[type='email'], input[name='message'] {
+        max-width: 390px;
+        min-width: 390px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}  
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+     .contact-form input[type='text'], input[type='email'], input[name='message'] {
+        max-width: 300px;
+        min-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+  
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+    #contact {
+        height: 700px;
+    }
+}
+
+/* ========  footer  ======== */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+     footer {
+        height: 900px;
+    }
+    footer .box {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer .box p {
+        width: 90%;
+    }
+    .box-subscribe input[type='email'] {
+        min-width: 80%;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box-copyright {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    footer {
+        height: 650px;
+    }
+    footer .box {
+        margin-top: 30px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    footer .box p {
+        width: 90%;
+    }
+    .box-copyright {
+        display: none;
+    }
+}
+@media screen and (max-width: 320px) {
+    footer {
+        height: 900px;
+    }
+    .box-subscribe input[type='email'] {
+        min-width: 260px;
+        max-width: 260px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 480px) {
+    footer {
+        height: 780px;
+    }
+}
